@@ -1,0 +1,7 @@
+mutation {
+    addTask(title: "Reboot Styling", weight: 2 description: "Add Bootstrap to reset the CSS styling", projectId: "65fb2440810da70023d45199") {
+        title
+        weight
+        description
+    }
+}
